@@ -1,7 +1,9 @@
+import Header from "./Components/Header/Header";
+
 function App() {
   return (
     <div>
-      <h1>Hi Tailwind</h1>
+      <Header></Header>
     </div>
   );
 }
