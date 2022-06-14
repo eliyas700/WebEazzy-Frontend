@@ -17,3 +17,21 @@ body {
     text-transform: capitalize;
 
 }
+
+.demo-img:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.template-bg {
+    background-image: url("/src/Assets/email-bg.png");
+}
+
+.feature-img {
+    filter: grayscale(100%);
+    transition: 0.5s ease-in-out;
+}
+
+.feature-img:hover {
+    filter: grayscale(0%);
+}

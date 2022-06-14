@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../Assets/in-hero-product-large-bce22ad495460b9f4ecb3ba9ae001c159106992815d73339fd27436dd16dcf4c.webp";
+import CoreFeatures from "../CoreFeatures/CoreFeatures";
 import EmailTemplate from "../EmailTemplate/EmailTemplate";
 import FrontEndDemo from "../FrontendDemo/FrontEndDemo";
 const HomePage = () => {
@@ -42,6 +43,9 @@ const HomePage = () => {
       </div>
       <div>
         <EmailTemplate />
+      </div>
+      <div>
+        <CoreFeatures />
       </div>
     </div>
   );
