@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../Assets/in-hero-product-large-bce22ad495460b9f4ecb3ba9ae001c159106992815d73339fd27436dd16dcf4c.webp";
+import EmailTemplate from "../EmailTemplate/EmailTemplate";
 import FrontEndDemo from "../FrontendDemo/FrontEndDemo";
 const HomePage = () => {
   return (
@@ -38,6 +39,9 @@ const HomePage = () => {
       </div>
       <div>
         <FrontEndDemo />
+      </div>
+      <div>
+        <EmailTemplate />
       </div>
     </div>
   );

@@ -16,14 +16,14 @@ const Header = () => {
   );
   return (
     <>
-      <div className="flex items-center py-2 sticky top-0 z-50 px-3 w-[95%] mx-auto justify-between">
+      <div className="flex items-center py-2 sticky top-0 z-50 px-3 w-[95%] mx-auto justify-between ">
         <div className="navbar-start">
           <div to="/" className=" normal-case text-[18px] font-sans">
             <img className="w-[190px]  " src={logo} alt="WebEazzy" />
           </div>
         </div>
         <div className=" hidden lg:flex ml-20">
-          <ul className="menu menu-horizontal lg:ml-20 p-0 items-center justify-end">
+          <ul className="menu menu-horizontal lg:ml-20 p-0 items-center justify-end ">
             {menuItems}
           </ul>
         </div>
