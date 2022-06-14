@@ -6,8 +6,8 @@ import img4 from "../../Assets/template3.jpg";
 import bgimg from "../../Assets/email-bg.png";
 const EmailTemplate = () => {
   return (
-    <div>
-      <div className="w-[90%] template-bg h-[fit] mx-auto py-8 ">
+    <div className="template-bg">
+      <div className="w-[90%]  h-[fit] mx-auto py-8 ">
         <div className="grid grid-cols-3 gap-20 mt-20">
           <div>
             <img className="w-[83%]" src={img1} alt="" />

@@ -18,7 +18,7 @@ const FrontEndDemo = () => {
       </div>
       <div className="grid grid-cols-4 gap-10 w-[90%]  mx-auto">
         {Demos.map((demo) => (
-          <div className="w-[246px] h-[236px] overflow-hidden ">
+          <div className="w-[246px] h-[236px] overflow-hidden">
             <img className="demo-img" src={demo.img} alt="" />
             <h3 className="text-2xl font-semibold text-center mt-3 text-info">
               {demo.name}
