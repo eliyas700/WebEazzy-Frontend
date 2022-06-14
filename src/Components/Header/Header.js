@@ -10,7 +10,7 @@ const Header = () => {
         <a href="/">Log in</a>
       </li>
       <li className="text-lg font-semibold ">
-        <button className="btn-primary text-white">Try for free</button>
+        <button className="bg-[#008060] text-white">Try for free</button>
       </li>
     </>
   );
