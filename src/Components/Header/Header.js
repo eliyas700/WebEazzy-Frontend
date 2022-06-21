@@ -6,23 +6,28 @@ const Header = () => {
       <li className="text-lg  font-semibold lg:mr-10">
         <a href="/">Pricing</a>
       </li>
-      <li className="text-lg font-semibold lg:mr-10" tabIndex="0">
+      <li className="text-lg font-semibold lg:mr-8" tabIndex="0">
         <a href="/">Log in</a>
       </li>
       <li className="text-lg font-semibold ">
-        <button className="bg-[#008060] text-white">Try for free</button>
+        <label
+          for="my-modal-3"
+          className="bg-[#5593C1] text-white text-lg  border-2 py-2 px-4 btn modal-button normal-case font-semibold"
+        >
+          Try for free
+        </label>
       </li>
     </>
   );
   return (
     <>
-      <div className="flex items-center py-2 sticky top-0 z-50 px-6  bg-slate-200 mx-auto justify-between ">
+      <div className="flex items-center py-2 sticky  shadow-2xl top-0 z-50 px-6  bg-white mx-auto justify-between ">
         <div className="navbar-start">
           <div to="/" className=" normal-case text-[18px] font-sans">
             <img className="w-[190px]  " src={logo} alt="WebEazzy" />
           </div>
         </div>
-        <div className=" hidden lg:flex ml-20">
+        <div className=" hidden lg:flex ml-20 ">
           <ul className="menu menu-horizontal lg:ml-20 p-0 items-center justify-end ">
             {menuItems}
           </ul>
